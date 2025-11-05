@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(220, 218, 218);
+}
+
+form{
+    width: 120vh;
+    height: 140vh;
+    background-color: white;
+    border: 2px solid #93c786;
+    border-radius: 20px;
+    font-size: 3vh;
+    margin-left: 23%;
+    font-family: "Open Sans", sans-serif;
+}
+
+h4{
+    font-weight: bold;
+    margin-left: 8%;
+    color: #609d53;
+}
+
+.bagagem, .paradas, .classes{
+    margin-left: 6%;
+    display: inline-block;
+}
+
+.voo{
+    margin-left: 11%;
+}
+
+.companhias{
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.hora{
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 1%;
+}
+
+.aero{
+    margin-left: 3%;
+}
+
+.preco{
+    margin-left: 12%;
+    margin-top: -2%;
+}
+
+
+input[type="radio"]{
+    accent-color: #93c786;
+}
+
+.submit{
+    width: 30%;
+    margin-top: 2%;
+    background-color: #609d53;
+    border-radius: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    padding: 7px 1px;
+    justify-content: center;
+    display: flex;
+    margin-left: 30%;
+    font-size: 4vh;
+    border-color: gray;
+    text-decoration: none;
+    transition: all 0.5s ease; 
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.submit:hover{
+    background-color:#6fa362;
+    color: white;
+    transform: scale(1.1);
+}

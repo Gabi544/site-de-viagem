@@ -1,0 +1,117 @@
+
+.preco{
+    color:gray;
+}
+
+span{
+    font-size: 4vh;
+    font-family: "Open Sans", sans-serif;
+}
+
+img{
+    width: 50vh;
+    border: 3px solid;
+    border-color: black;
+    transition: all 0.5s ease;
+    border-radius: 15px;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.sugestoes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 20%;
+    flex-wrap: nowrap;
+}
+
+body{
+    background-color: rgb(220, 218, 218);
+}
+
+
+form{
+    background-color: white;
+    border-radius: 20px;
+    width: 120vh;
+    height: 28vh;
+    display: flex;
+    margin-left: 25%;
+    border: 2px solid gray;
+    font-size: 3vh;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.submit{
+    width: 30%;
+    margin-top: 2%;
+    background-color: #93c786;
+    border-radius: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    padding: 4px;
+    justify-content: center;
+    display: flex;
+    margin-left: 30%;
+    font-size: 3vh;
+    border-color: gray;
+    text-decoration: none;
+    transition: all 0.5s ease; 
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.submit:hover{
+    background-color:#6fa362;
+    color: white;
+    transform: scale(1.1);
+}
+
+.opcoes{
+    margin-top: 1%;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+input[type=radio] {
+    accent-color: #93c786;
+}
+
+.textos{
+    margin-top: 2%;
+    color: black;
+    margin-left: 9%;
+    display: inline-block;
+}
+
+ input[type="text"]{
+    border-radius: 4px;
+    border: 2px solid gray;
+    padding: 5px;
+    outline: none;
+    box-shadow: none;
+ } 
+
+ input:focus[type="text"]{
+    border-color: #6fa362;
+}
+ 
+.date{
+    margin-right: 4%;
+}
+ 
+.date, .viajantes{
+    display: inline-block;
+    margin-left: 6%;
+    margin-top: 1%;
+}
+
+input[type="date"]{
+    padding: 5px;
+}
+

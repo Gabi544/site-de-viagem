@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formu.css" type="text/css">
+</head>
+<body>
+   <form>
+        <h4>Bagagem</h4>
+        <div class="bagagem">
+            <input type="radio" name="bagagem" id="mao" value="mao" required>
+            <label for="mao">Bagagem de mão</label>
+        </div>
+
+        <div class="bagagem">
+            <input type="radio" name="bagagem" id="despache" value="despache" required>
+            <label for="despache">Bagagem despachada</label>
+        </div>
+        
+        <h4>Quantidade de paradas</h4>
+        <div class="paradas">
+            <input type="radio" name="paradas" id="direto" value="direto" required>
+            <label for="direto">Voo direto</label>
+        </div>
+        <div class="paradas">
+            <input type="radio" name="paradas" id="1" value="1" required>
+            <label for="1">1 parada</label>
+        </div>
+        <div class="paradas">
+            <input type="radio" name="paradas" id="mais" value="mais" required>
+            <label for="mais">2 ou mais</label>
+        </div>
+
+        <h4>Número do voo</h4>
+        <div class="voo">
+            <input type="text" name="nvoo" id="nvoo" size="6" maxlength="6" required>
+        </div>
+
+        <h4>Companhias aéreas</h4>
+        <div class="companhias">
+            <input type="radio" name="companhias" id="avianca" value="avianca" required>
+            <label for="avianca">Avianca</label>
+        </div>
+        <div class="companhias">
+            <input type="radio" name="companhias" id="delta" value="delta" required>
+            <label for="delta">Delta Air Lines</label>
+        </div>
+        <div class="companhias">   
+            <input type="radio" name="companhias" id="copa" value="copa" required>
+            <label for="copa">Copa</label>
+        </div>
+        <div class="companhias">
+            <input type="radio" name="companhias" id="gol" value="gol" required>
+            <label for="gol">Gol</label>
+        </div>
+        <div class="companhias">
+            <input type="radio" name="companhias" id="american" value="american" required>
+            <label for="american">American</label>
+        </div>
+        <div class="companhias">
+            <input type="radio" name="companhias" id="latam" value="latam" required>
+            <label for="latam">Latam</label>
+        </div>
+        <div class="companhias">
+            <input type="radio" name="companhias" id="canada" value="canada" required>
+            <label for="canada">Air Canada</label>
+        </div>
+        <div class="companhias">
+            <input type="radio" name="companhias" id="azul" value="azul" required>
+            <label for="azul">Azul</label>
+        </div>
+        <div class="companhias">
+            <input type="radio" name="companhias" id="mexico" value="mexico" required>
+            <label for="mexico">Aeromexico</label>
+        </div>
+
+        <h4>Horário de embarque</h4>
+        <div class="hora">
+            <label>Voo de ida</label>
+            <input type="time" name="hora" required>
+        </div>
+        <div class="hora">
+            <label>Voo de volta</label>
+            <input type="time" name="hora" required>
+        </div>
+
+        <h4>Classes</h4>
+        <div class="classes">
+            <input type="radio" name="classes" id="padrao" value="padrao" required>
+            <label for="padrao">Econômica padrão</label>
+        </div>
+        <div class="classes">
+            <input type="radio" name="classes" id="eco" value="eco" required>
+            <label for="eco">Econômica</label>
+        </div>
+        <div class="classes">
+            <input type="radio" name="classes" id="premium" value="premium" required>
+            <label for="premium">Econômica premium</label>
+        </div>
+        <div class="classes">
+            <input type="radio" name="classes" id="executiva" value="executiva" required>
+            <label for="executiva">Executiva</label>
+        </div>
+        <div class="classes">
+            <input type="radio" name="classes" id="primeira classe" value="primeira classe" required>
+            <label for="primeira classe">Primeira classe</label>
+        </div>
+
+        <h4>Aeroportos</h4>
+        <div class="aero">
+            <input type="checkbox" name="aero" value="s/n"> Ida e volta pelo mesmo aeroporto
+        </div>
+
+        <h4>Preço</h4>
+        <div class="preco">
+            <input type="number" id="preco" name="preco" min="0" max="150700" step="50" value="0">
+        </div>
+
+        <a class="submit" href="carregar.html" target="centro">Viajar</a>
+   </form>
+</body>
+</html>

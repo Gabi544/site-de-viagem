@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/centro.css">
+</head>
+<body>
+    <form>
+        <div class="form">
+            <div class="opcoes">
+                <input type="radio" name="opcoes" id="idaevolta" value="idaevolta">
+                <label for="idaevolta">Ida e volta</label>
+            </div>
+            <div class="opcoes">
+                <input type="radio" name="opcoes" id="ida" value="ida">
+                <label for="ida">Só ida</label>
+            </div>
+            <div class="opcoes">
+                <input type="radio" name="opcoes" id="destinos" value="destinos">
+                <label for="destinos">Vários destinos</label>
+            </div>
+
+            <div class="textos">
+                <label for="origem">Origem</label>
+                <input type="text" name="texto" id="origem" size="25">
+                
+                <label for="destino">Destino</label>
+                <input type="text" name="texto" id="destino" size="25"> 
+            </div>
+            <br>
+            <div class="date">
+                <label for="data">Início</label>
+                <input type="date" name="data" id="data">
+            </div>
+            <div class="date">
+                <label for="data">Fim</label>
+                <input type="date" name="data" id="data">
+            </div>
+
+            <div class="viajantes">
+                <label for="viajantes">Viajantes</label>
+                <select name="viajantes" id="viajantes">
+                    <option value="selecione">Selecione</option>
+                    <option value="adulto">Adulto</option>
+                    <option value="criança">Criança</option>
+                    <option value="bebes">Bebês</option>
+                </select>
+            </div>
+            <a class="submit" href="formulario.html" target="centro">Enviar</a>
+        </div>
+    </form>
+
+    
+    <br><br>
+    <div class="sugestoes">
+        <div class="franca">
+            <a href="1-sobre-franca.html" target="centro"><img src="imagens/frança.png"></a><br>
+            <span>França/Paris</span><br>
+            <span class="preco">Preço a partir de </span><span>R$9.900</span>
+        </div>
+        <div class="espanha">
+            <a href="2-sobre-espanha.html" target="centro"><img src="imagens/espanha.png"></a><br>
+            <span>Espanha/Madrid</span><br>
+            <span class="preco">Preço a partir de </span><span>R$4.800</span>
+        </div>
+    </div>
+    <br> <br> <br> <br>
+    <div class="sugestoes">
+        <div class="eua">
+            <a href="3-sobre-eua.html" target="centro"><img src="imagens/eua.png"></a><br>
+            <span>Estados Unidos/Wasthington</span><br>
+            <span class="preco">Preço a partir de </span><span>R$7.740</span>
+        </div>
+        <div class="turquia">
+            <a href="4-sobre-turquia.html" target="centro"><img src="imagens/turquia.png"></a><br>
+            <span>Turquia/Ancara</span><br>
+            <span class="preco">Preço a partir de </span><span>R$11.799</span>
+        </div>
+    </div>
+</body>
+</html>
